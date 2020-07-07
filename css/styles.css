@@ -1,37 +1,47 @@
 body {
 	font-family: "Montserrat";
+	text-align: center;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
 	font-family: Montserrat;
-	font-size: 3rem;
-	line-height: 1.5;
 	font-weight: bold;
 }
 
-h2{
-	font-family: "Montserrat-Bold";
-	font-weight: bold;
-	line-height: 1.5;
-	font-size: 3rem;
-}
 
 p {
 	color: #8f8f8f;
 }
 
-h3 {
-	font-family: "Montserrat-Bold";
-	font-weight: bold;
-	}
+
+/*BIG_HEADING
+*/
+
+.big-heading{
+	font-family: "Montserrat";
+	font-size: 3.5rem;
+	line-height: 1.5;
+
+}
+
+.section-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+
+
+
 
 .container-fluid {
-	padding: 3% 15% 7%	;
+	padding: 3% 15% 7%;
 }
 
 #title {
 	background-color: #ff4c68;
 	color: #fff;
+	text-align: left;
 }
 
 /*Navigation Bar!*/
@@ -80,100 +90,102 @@ h3 {
 }
 
 .feature-box {
-	text-align: center;
 	padding: 5%;
 }
 
-.icon{
+.icon {
 	color: #ef8172;
-	margin-bottom: 1rem; 	
+	margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
 	color: #ff4c68;
 }
 
 /*Testimonial Section*/
 
-#testimonials{
-	text-align: center;
+ .testimonial-text{
+ 	font-size: 3rem;
+ 	line-height: 1.5;
+ }
+
+
+#testimonials {
 	background-color: #ef8172;
 	color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
 	width: 10%;
 	border-radius: 100%;
-	margin:20px; 
+	margin: 20px;
 }
 
-#press{
+#press {
 	background-color: #ef8172;
-	text-align: center;
 	padding-bottom: 3%;
-
 }
 
-.press-logo{
+.press-logo {
 	width: 15%;
 	margin: 20px 20px 50px;
 }
 
-
-.carousel-item{
+.carousel-item {
 	padding: 7% 15%;
 }
 
-
 /*Pricing Section*/
 
-#pricing{
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+#pricing {
 	padding: 100px;
 	text-align: center;
 }
 
-.pricing-column{
+.pricing-column {
 	padding: 3% 2%;
 }
 
 /*CTA SECTION
 */
 
-#cta{
+#cta {
 	background-color: #ff4c68;
 	color: #fff;
 	padding: 7% 15%;
 	text-align: center;
 }
 
-.cta-heading{
+.cta-heading {
 	font-family: Montserrat;
 	font-size: 3rem;
 	line-height: 1.5;
 	font-weight: bold;
 }
 
-
-.social-icon{
+.social-icon {
 	margin: 20px 10px;
 }
 
 /*Footer Section*/
 
-#footer{
+#footer {
 	padding: 7% 15%;
-	text-align: center;
 }
 
-@media(max-width: 1028px){
-
-	#title{
+@media (max-width: 1028px) {
+	#title {
 		text-align: center;
 	}
 
-	.title-image{
+	.title-image {
 		position: static;
 		transform: rotate(0);
 	}
-
 }
